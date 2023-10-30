@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class LinearQueueMain {
+
+	public static int menu() {
+		int choice;
+		System.out.println("0.Exit");
+		System.out.println("1.Push");
+		System.out.println("2.Pop");
+		System.out.println("3.Peek");
+		System.out.print("Enter your choice :");
+		choice = new Scanner(System.in).nextInt();
+
+	}
+
+	public static void main(String[] args) {
+		int choice;
+		LinearQueue queue = new LinearQueue(5);
+		Scanner sc = new Scanner(System.in);
+		while ((choice = menu()) != 0) {
+			switch (choice) {
+			case 1:
+				if (queue.isFull()) {
+					System.out.print("Enter the element to push :");
+					int ele = sc.nextInt();
+					queue.push(ele);
+				} else {
+					System.out.println("Queue is full");
+				}
+
+				break;
+			case 2:
+				if
+				break;
+
+			default:
+				break;
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,43 @@
+package que2;
+
+import java.util.Arrays;
+
+public class BubbleSort {
+	public static void bubbleSort(int arr[],int size) 
+	{
+	      int count=0;
+	      int itr=0;
+	      int flag=0;
+          for(int i=1;i<size;i++)
+          {
+        	  itr++;
+        	for(int j=0;j<size-i;j++)
+        	{
+        		count++;
+        	   if(arr[j]>arr[j+1])
+        	   {
+        		 int temp=arr[j];
+        		 arr[j]=arr[j+1];
+        		 arr[j+1]=temp;
+        		 flag=1;
+        	   }	
+        	   
+        	   }
+        	 if(flag==0)
+      	   {
+      		break;  
+        	}  
+          }	
+          System.out.println("Total iteration :"+itr);
+          System.out.println("Total comparision :"+count);
+	}
+
+	public static void main(String[] args) {
+		
+           int arr[]= {3,22,66,55,44,11};
+           System.out.println("Before sort :"+Arrays.toString(arr));
+           bubbleSort(arr,arr.length);
+           System.out.println("After sort :"+Arrays.toString(arr));
+	}
+
+}

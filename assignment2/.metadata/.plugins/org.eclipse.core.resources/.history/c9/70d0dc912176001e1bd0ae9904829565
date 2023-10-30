@@ -1,0 +1,33 @@
+
+public class LinearQueue {
+	private int front;
+	private int rear;
+	private final int size;
+	int arr[];
+
+	public LinearQueue(int size) {
+		this.size = size;
+		arr = new int[size];
+		this.front = 0;
+		this.rear = 0;
+
+	}
+
+	public void push(int data) {
+		// index start at 0 then push first the increament the rear
+		arr[rear] = data;
+		rear++;
+
+	}
+
+	public void pop() {
+		System.out.println("Element pop is :" + arr[front]);
+		front++;
+
+	}
+	public int peek() 
+	{
+	   return arr[]	
+	}
+
+}

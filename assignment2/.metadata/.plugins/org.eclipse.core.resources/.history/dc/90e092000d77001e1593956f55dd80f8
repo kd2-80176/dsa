@@ -1,0 +1,19 @@
+
+public class Stack {
+	private int top;
+	private int size;
+	
+	
+	public Stack(int size) {
+		this.top=size;
+		this.size = size;
+	}
+	public void push(int data) 
+	{
+	   top--;
+	   
+	   
+	}
+	
+
+}

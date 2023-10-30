@@ -1,0 +1,8 @@
+package que7CircularQueue;
+
+public class Snippet {
+	public static void main(String[] args) {
+		 System.out.println("Element pop is :");
+	}
+}
+

@@ -1,0 +1,25 @@
+
+public class LinearQueue {
+	private int front;
+	private int rear;
+	private  final int size;
+	int arr[];
+	
+	
+	
+	public LinearQueue(int size) {
+		int arr[]=new arr[size];
+		this.front=0;
+		this.rear=0;
+	
+	}
+	
+	public void push(int data) 
+	{
+		//index start at 0 then push first the increament the rear
+		 arr[rear]=data;
+		
+	}
+	
+
+}

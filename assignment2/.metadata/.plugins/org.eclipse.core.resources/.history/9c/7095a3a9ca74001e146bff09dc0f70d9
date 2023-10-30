@@ -1,0 +1,10 @@
+package que4;
+
+public class DescInsertionSort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

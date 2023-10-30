@@ -1,0 +1,21 @@
+
+public class Stack {
+	private int top;
+	private int size;
+	private int arr[];
+	
+	
+	public Stack(int size) {
+		this.top=size;
+		arr=new 
+		this.size = size;
+	}
+	public void push(int data) 
+	{
+	   top--;
+	   
+	   
+	}
+	
+
+}
