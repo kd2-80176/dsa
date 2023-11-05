@@ -1,0 +1,13 @@
+
+public class DequeMain {
+
+	public static void main(String[] args) {
+	   Deque q=new Deque();
+	   q.pushAtFront(20);
+	   q.pushAtRear(30);
+	   q.pushAtRear(10);
+	   q.
+
+	}
+
+}

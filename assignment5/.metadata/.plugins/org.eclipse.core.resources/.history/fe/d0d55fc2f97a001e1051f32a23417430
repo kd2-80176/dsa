@@ -1,0 +1,11 @@
+package que2;
+
+public class StackMain {
+
+	public static void main(String[] args) {
+		LinkedList list=new LinkedList();
+	     
+
+	}
+
+}

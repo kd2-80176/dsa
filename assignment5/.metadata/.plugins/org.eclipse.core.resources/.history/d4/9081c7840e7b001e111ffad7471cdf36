@@ -1,0 +1,26 @@
+package que2;
+
+public class Stack {
+	
+	public void push(int value) {
+
+		
+			
+			list.addLast(value);
+		}
+	}
+
+	public void pop() {
+		if (isEmpty())
+			System.out.println("Stack is empty");
+		else {
+			list.delLast();
+			top--;
+		}
+	}
+
+	public void peek() {
+		list.getLast();
+	}
+
+}

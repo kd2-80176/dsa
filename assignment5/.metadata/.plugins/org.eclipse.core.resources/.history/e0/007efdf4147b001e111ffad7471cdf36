@@ -1,0 +1,75 @@
+
+public class BSTree {
+
+	public class Node {
+		private int data;
+		private Node left;
+		private Node right;
+
+		public Node(int data) {
+
+			this.data = data;
+			this.left = null;
+			this.right = null;
+		}
+
+	}
+
+	private Node root;
+
+	public BSTree() {
+
+		this.root = null;
+	}
+
+	public boolean isEmpty() {
+		return root == null;
+	}
+
+	private void add(Node trav, int value) {
+		Node newnode = new Node(value);
+		if (isEmpty()) {
+			root = newnode;
+		} else {
+			while (true) {
+				if (value < trav.data) {
+					if (trav.left == null) {
+						trav.left = newnode;
+						break;
+					} else
+						add(trav.left, value);
+				} else {
+					if (trav.right == null) {
+						trav.right = newnode;
+						break;
+					} else
+						add(trav.right, value);
+				}
+			}
+		}
+
+	}
+
+	public void add(int value) {
+		Node trav = root;
+		add(trav, value);
+
+	}
+
+	private void inorder(Node trav) {
+
+		if (trav == null)
+			return;
+		else {
+			inorder(trav.left);
+			System.out.println(" " + trav.data);
+			inorder(trav.right);
+		}
+
+	}
+	public void inorder() 
+	{
+	   inorder(root);	
+	}
+	
+}

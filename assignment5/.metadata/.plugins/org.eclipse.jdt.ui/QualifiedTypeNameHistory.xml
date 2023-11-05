@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="doublyCircularLinkedList.ListMain"/>
+    <fullyQualifiedTypeName name="doublyCircularLinkedList.DoublyCircularLinkedList.Node"/>
+    <fullyQualifiedTypeName name="que2.LinkedList.Node"/>
+    <fullyQualifiedTypeName name="que2.Stack"/>
+    <fullyQualifiedTypeName name="que2.LinkedList"/>
+    <fullyQualifiedTypeName name="que2.Queue"/>
+    <fullyQualifiedTypeName name="LinkedList"/>
+    <fullyQualifiedTypeName name="Deque"/>
+    <fullyQualifiedTypeName name="BSTree"/>
+    <fullyQualifiedTypeName name="BSTree.Node"/>
+</qualifiedTypeNameHistroy>

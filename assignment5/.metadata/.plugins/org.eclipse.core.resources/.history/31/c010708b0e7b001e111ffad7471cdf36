@@ -1,0 +1,29 @@
+package que2;
+
+public class Stack {
+	
+
+	LinkedList list = new LinkedList();
+
+
+	public void push(int value) {
+
+			top++;
+			list.addLast(value);
+		}
+	}
+
+	public void pop() {
+		if (isEmpty())
+			System.out.println("Stack is empty");
+		else {
+			list.delLast();
+			top--;
+		}
+	}
+
+	public void peek() {
+		list.getLast();
+	}
+
+}

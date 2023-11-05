@@ -1,0 +1,53 @@
+
+public class Deque {
+	private int size;
+	private int rear, front;
+
+	LinkedList list = new LinkedList();
+
+	public Deque(int size) {
+
+		this.rear = -1;
+		this.front = -1;
+
+	}
+
+	public boolean isEmpty() {
+		return rear == front;
+	}
+
+	public boolean isFull() {
+		return rear == size - 1;
+	}
+
+	public void pushAtFirst(int value) {
+		if (isFull())
+			System.out.println("Deque is full");
+		else {
+			rear++;
+			list.addFirst(value);
+         }
+	}
+
+	public void pushAtLast(int value) {
+		if (isFull())
+			System.out.println("Deque is full");
+		else {
+            rear++;
+            list.addLast(value);
+		}
+	}
+    public void popFirst() {
+    	if(isEmpty())
+    		System.out.println("Deque is empty");
+    	else {
+    		front++;
+    		list.delFirst();
+    		}
+    }
+    public void popLast() {
+    	if(isEmpty())
+    		System.out.println("");
+    }
+
+}

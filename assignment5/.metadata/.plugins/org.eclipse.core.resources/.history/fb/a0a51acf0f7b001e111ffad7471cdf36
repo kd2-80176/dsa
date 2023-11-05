@@ -1,0 +1,11 @@
+
+public class DequeMain {
+
+	public static void main(String[] args) {
+	   Deque q=new Deque();
+	   q.pushAtFront(10);
+	   
+
+	}
+
+}

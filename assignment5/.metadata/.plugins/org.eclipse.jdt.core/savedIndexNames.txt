@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/sunbream/1.SUNBEAM_KADC_SEP2023 DATA/javalab/assignment dsa/assignment5/.metadata/.plugins/org.eclipse.jdt.core
+3562532072.index
+1865797976.index
+1026836957.index
